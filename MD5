@@ -1,0 +1,10 @@
+66ead54115c384f7ca3b0cf2e6fdde19 *DESCRIPTION
+4d3f2fb445e62a15347509c1eda6a285 *NAMESPACE
+886677812caa53a096a47565ee2ae33e *R/gsheet2tbl.R
+19ac0b01ece42029191ff3fd7e53ba4c *R/gsheet2text.R
+eb9f8eca008e099d4674c3475ae8ec60 *README.md
+4c3e43edaee90228ad29172bd05ad457 *man/gsheet2tbl.Rd
+01432e3c915958f4b943f72e69474762 *man/gsheet2text.Rd
+729e74cf3d588fa031268fbd7bb07bdb *tests/testthat.R
+59f1034398dec6326e49212d23208ae4 *tests/testthat/test-gsheet2tbl.R
+09fe91c419915ba04e7df77ea5c6eae3 *tests/testthat/test-gsheet2text.R
