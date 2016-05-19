@@ -27,14 +27,15 @@ gsheet2text <- function(url, format='csv', sheetid = NULL){
   if(is.null(sheetid) & stringr::str_detect(url, 'gid=[[:digit:]]+')){
     sheetid <- url %>% stringr::str_extract('gid=[[:digit:]]+') %>% stringr::str_extract('[[:digit:]]+') %>% as.numeric()
   }
-  address <- paste0('https://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=',key,'&exportFormat=',format)
+  address <- paste0('https://docs.google.com/spreadsheets/export?id=',key,'&format=',format)
   if(!is.null(sheetid)){
     address <- paste0(address, '&gid=', sheetid)
   }
-  page <- xml2::read_html(address)
-  if(page %>% rvest::html_nodes('script') %>% length() > 0 | page %>% rvest::html_nodes('style') %>% length() > 0){
+  page <- httr::GET(address)
+  if(stringr::str_detect(page$headers$`content-type`, stringr::fixed('text/html'))){
     stop("Unable to retrieve document. Is 'share by link' enabled for this sheet?")
   }
-  content <- rvest::html_text(rvest::html_node(page, 'p'))
+  content <- page %>% 
+    httr::content(as='text')
   return(content)
 }

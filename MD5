@@ -1,10 +1,11 @@
-95c0840ec6ef167e443e58f67bbfbf67 *DESCRIPTION
+14ce3935ade09bd24c44df78fcdc4125 *DESCRIPTION
 2ba0835690d903af4bcffe1fd846c9bf *NAMESPACE
+0c21410e3470974682e63d65002564df *NEWS.md
 28c868cd78d31004f36865829fcaaa52 *R/gsheet2tbl.R
-9d8e08e0311d06ce2fcd9207ccc1b203 *R/gsheet2text.R
+b69a8e775ec8fa4d5a000143a24b1204 *R/gsheet2text.R
 84bdadc223526ba155e81fcc9f052ecf *README.md
 f01ba11f4f68f4a3ced73263437be112 *man/gsheet2tbl.Rd
 e2b6fd8488315b47a4cd7a5b3aea0c19 *man/gsheet2text.Rd
 729e74cf3d588fa031268fbd7bb07bdb *tests/testthat.R
-1e11e9e83bd3c7d16a5ad0ebe821702d *tests/testthat/test-gsheet2tbl.R
+13a9b7e2c8d5099c2841f44aaeb7a5a8 *tests/testthat/test-gsheet2tbl.R
 7a445c89f55f79634418c6f21a98b1ff *tests/testthat/test-gsheet2text.R
