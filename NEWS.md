@@ -1,6 +1,15 @@
+# gsheet 0.4.2
+
+- fixes to make tests agnostic to use of readr vs base
+
+# gsheet 0.4.0
+
+- gsheet2tbl now uses readr if it is available
+- new function construct_download_url allows manual downloading using readr
+
 # gsheet 0.3.0
 
-# Minor changes
+## Minor changes
 
 - Moved from rvest and xml2 to purely using httr.
 
