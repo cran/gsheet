@@ -5,7 +5,7 @@ gsheet
 
 [![Travis-CI Build Status](https://travis-ci.org/maxconway/gsheet.png?branch=master)](https://travis-ci.org/maxconway/gsheet) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/gsheet)](https://cran.r-project.org/package=gsheet)
 
-gsheet is a simple package to download Google Sheets (aka Google Docs Spreadsheets) using just the sharing link. Sheets can be downloaded as a data frame, or as plain text to parse manually.
+gsheet is a simple package to download \[Google Sheets\](<https://www.google.com/sheets/about/> (aka Google Docs Spreadsheets) using just the sharing link. Sheets can be downloaded as a data frame, or as plain text to parse manually.
 
 Installation
 ------------
@@ -16,7 +16,7 @@ Install from CRAN with:
 install.packages('gsheet')
 ```
 
-Or install the latest development version from github wth:
+Or install the latest development version from github with:
 
 ``` r
 devtools::install_github("maxconway/gsheet")
