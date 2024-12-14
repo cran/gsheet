@@ -1,3 +1,7 @@
+# gsheet 0.4.6
+- Fixed typos documentation
+- Moved from travis to github CI
+
 # gsheet 0.4.5
 
 - Pull request from adaRn to enable more customisation of parsing

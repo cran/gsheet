@@ -1,12 +1,12 @@
-ee5bd2de4749ae418e98f34924bbaf4f *DESCRIPTION
+2cd0ecb3b8c93d453a0944a8ba2f2e13 *DESCRIPTION
 b683a213fac23cb7f01931119bd26f7d *NAMESPACE
-5a2547ef50679c232bd6e3b8ea5e94a2 *NEWS.md
+180ccbc6876f88f9e777613e3ffa4433 *NEWS.md
 dc1ed82c6f3b7a8320873c31828da825 *R/construct_download_url.R
-30a75583396a95b7c6e0604fe7fc3d8b *R/gsheet2tbl.R
+d6e15703af54480a674415ad7e8456e7 *R/gsheet2tbl.R
 c5fc4a92a3f1b267a7139462dcbe6aa2 *R/gsheet2text.R
-0fc2fcd9546208387aaedbffa734ad0b *README.md
+01ac8c6ba7f0081db0c9bc6e56c064da *README.md
 d103cb2a26be9d8983ccc198f4eaa0bd *man/construct_download_url.Rd
-918f27f5b0147fbad4d8a383ff3f4774 *man/gsheet2tbl.Rd
+8a7c32ea43307f33deb6c173c6a1d6fb *man/gsheet2tbl.Rd
 1157d696422b2adb29f159be3877e16e *man/gsheet2text.Rd
 729e74cf3d588fa031268fbd7bb07bdb *tests/testthat.R
 c7837c4355f9330fb815e69e5ba1e2ca *tests/testthat/test-gsheet2tbl.R
